@@ -1,0 +1,156 @@
+.menu {
+    height: 40px;
+    border: 1px solid rgb(214, 46, 16);
+    background-color: beige;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.navMenu ul {
+    list-style: none;
+    text-align: left;
+}
+
+.navMenu ul li {
+    display: inline;
+}
+
+.navMenu ul li a {
+    padding: 1vw;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+
+.navMenu ul li a:hover {
+    color: blue;
+    font-weight: bold;
+    font-size: 18;
+}
+
+/*
+    Configuraçoes do Menu Principal
+*/
+
+#inicio, #cursos, #contatos, #parceiros, #missao, #sobre, footer {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#inicio {
+    height: 40vh;
+    background-color: grey;
+}
+
+
+#cursos {
+    height: 50vh;
+    background-color: yellow;
+
+}
+
+#contatos {
+    height: 20vh;
+    background-color: burlywood;
+}
+
+#parceiros {
+    height: 50vh;
+    background-color: darkseagreen;
+}
+
+#missao {
+    height: 30vh;
+    background-color: cyan;
+}
+
+#sobre {
+    height: 35vh;
+    background-color: silver;
+}
+
+/*
+    Configuraçoes de retorno das ancoras
+*/
+
+.voltarTopo, .irInicio, .irCursos, .irContatos, .irParceiros, .irMissao, .irSobre {
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2s;
+    position: fixed;
+    right: 1vh;
+    text-decoration: none;
+    width: 98px;
+    text-align:center;
+    border-radius: 4px;
+}
+
+.voltarTopo {
+    bottom: 14vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.voltarTopo:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.irInicio {
+    bottom: 75vh;
+    color: green;
+    background-color: bisque;
+}
+
+.irInicio:hover {
+    background-color: darkorange;
+}
+
+.irCursos {
+    bottom: 71vh;
+    color: black;
+    background-color: cyan;
+}
+
+.irCursos:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.irContatos {
+    bottom: 67vh;
+    color: white;
+    background-color: darkblue;
+}
+
+.irContatos:hover {
+    background-color: red;
+}
+
+.irParceiros {
+    bottom: 63vh;
+    color: darkred;
+    background-color: yellow;
+}
+
+.irParceiros:hover {
+    background-color: gray;
+}
+
+.irMissao {
+    bottom: 59vh;
+    color: indigo;
+    background-color: green;
+}
+
+.irMissao:hover {
+    background-color: black;
+}
+
+.irSobre {
+    bottom: 55vh;
+    color: indigo;
+    background-color: salmon;
+}
+
+.irSobre:hover {
+    background-color: black;
+}

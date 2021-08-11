@@ -1,10 +1,10 @@
 import './App.css';
-import Menu from './Menu.js';
+import Secoes from './Secoes.js';
 
 function App() {
   return (
     <div>
-      <Menu />
+      <Secoes />
   
     </div>
   );
