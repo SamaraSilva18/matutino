@@ -154,3 +154,50 @@
 .irSobre:hover {
     background-color: black;
 }
+
+.aside a {
+    position: fixed;
+    left: -5vw;
+    transition: 0.2s;
+    padding: 2vh;
+    width: 4vh;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+}
+
+.aside a:hover {
+    left:0;
+}
+
+#inicio2 {
+    top: 20vh;
+    background-color: blue;
+}
+
+#cursos2 {
+    top: 27vh;
+    background-color: red;
+}
+
+#contatos2 {
+    top: 34vh;
+    background-color: black;
+}
+
+#parceiros2 {
+    top: 41vh;
+    background-color: cyan
+}
+
+#missao2 {
+    top: 48vh;
+    background-color: rgba(0, 255, 115, 0.28)
+}
+
+#sobre2 {
+    top: 55vh;
+    background-color: salmon;
+}
+

@@ -1,0 +1,13 @@
+/*
+    Configuraçoes do Menu Principal
+*/
+
+.inicio, .cursos, .contatos, .parceiros, .missao, .sobre, footer {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#inicio {
+    height: 40vh;
+    background-color: grey;
+}
