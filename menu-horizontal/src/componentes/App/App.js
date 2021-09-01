@@ -3,8 +3,10 @@ import React from 'react';
 
 import Inicio from '../Inicio/Inicio.jsx';
 import Header from '../Header/Header.jsx';
-import Titulo from '../Titulo/Titulo.jsx';
+
+import Parceiros from '../Parceiros/Index.jsx';
 import Footer from '../Footer/Footer.jsx';
+
 
 import { Route, Switch } from "react-router-dom";
 
@@ -14,14 +16,10 @@ function App() {
 
         <Header />
 
-      <div className="titulo">
-        <Titulo />
-
-      </div>
-
       <main>
         <Switch>
           <Route exact path="/" render = {(props) => <Inicio/>}> </Route>
+          <Route exact path="/parceiros" render = {(props) => <Parceiros/>}> </Route>
         </Switch>
 
       </main>

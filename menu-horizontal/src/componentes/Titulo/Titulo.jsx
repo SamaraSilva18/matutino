@@ -5,6 +5,8 @@ export default function Titulo() {
         <div>
             <div className="titulo">
                
+               <h3> {props.texto} </h3>
+
             </div>
         </div>
     )
