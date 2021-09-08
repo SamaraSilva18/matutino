@@ -1,6 +1,8 @@
-import React from "react"
+import React from "react";
 
-export default function Titulo() {
+import './Titulo.css';
+
+export default function Titulo(props) {
     return (
         <div>
             <div className="titulo">
